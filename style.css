@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&family=Playfair+Display:ital@0;1&family=Poppins:wght@100&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+.search_box input[type=text] {
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid grey;
+    width: 300px;
+    background: #f1f1f1;
+}
+
+.box-search {
+    width: 250px;
+}
+
+.photo {
+    width: 35px;
+    height: 35px;
+    margin-top: 0px;
+}
+
+.icon {
+    margin-right: 300px;
+
+}
+
+.icon a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid black;  */
+    padding: 8px 8px;
+}
+
+.icon>i {
+    cursor: pointer;
+}
+
+.profile {
+    border-left: 3px solid black;
+
+}
+
+/* ##########linkedin page styling######### */
+.container {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    background: rgb(246, 244, 218);
+}
+
+.part {
+    height: 1200px;
+    /* border: 1px solid black; */
+}
+
+.part1 {
+    width: 350px;
+
+}
+
+.part2 {
+    width: 500px;
+}
+
+.part3 {
+    width: 350px;
+}
+
+.post {
+    width: 498px;
+    height: 100px;
+    background: white;
+}
+
+.post-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px
+}
+
+.post input[type=text] {
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid grey;
+    width: 400px;
+    border-radius: 30px;
+    background: #f1f1f1;
+}
+
+.post1>i {
+    color: rgb(11, 237, 146);
+    margin-top: 5px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.scroll {
+    width: 498px;
+    height: 100px;
+    margin-top: 15px;
+    background: white;
+}
+
+.myntra {
+    width: 90px;
+    height: 70px;
+}
+
+.myntra-text {
+    float: right;
+    margin-right: 288px;
+    /* color: rgb(71, 71, 71); */
+
+
+}
+
+.myntra-img {
+    width: 498px;
+    height: 300px;
+}
+
+.like {
+    border-top: 1px solid rgb(141, 138, 138);
+    margin-top: 30px;
+    width: 498px;
+    height: 40px;
+    background: white;
+}
+
+span {
+    color: rgb(70, 70, 70);
+}
+
+.like>i {
+    font-size: 22px;
+    margin-top: 10px;
+    color: rgb(85, 227, 180);
+    padding: 0px 15px;
+    cursor: pointer;
+
+}
+
+.like>i:hover {
+    color: rgb(3, 248, 232);
+}
+
+i {
+    padding: 0px 2px;
+    color: rgb(85, 227, 170);
+}
+
+.articles {
+    width: 498px;
+    height: 160px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    background: white;
+}
+
+.logo2 {
+    width: 98px;
+    height: 98px;
+    margin-top: 0px;
+}
+
+.article {
+    float: right;
+    margin-right: 255px;
+    margin-top: 16px;
+}
+
+.article>h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article>p {
+    color: rgb(82, 82, 82);
+}
+
+.articles>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    /* margin-top: 5px; */
+    font-weight: 2px;
+    color: rgb(26, 26, 26);
+    padding: 0px 10px;
+}
+
+.video {
+    width: 498px;
+    height: 280px;
+    background: white;
+}
+
+.like2 {
+    border-top: 1px solid rgb(141, 138, 138);
+    margin-top: 0px;
+    width: 498px;
+    height: 40px;
+    background: white;
+}
+
+.like2>i {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(85, 227, 180);
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.like2>i:hover {
+    color: rgb(3, 248, 232);
+}
+
+/* #####part 3 styling ##### */
+.new1 {
+    width: 348px;
+    height: 250px;
+    background: white;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+.new1>h2 {
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.new1>ul>li {
+    margin-left: 25px;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.new1>ul>p {
+    color: #858484;
+    margin-left: 25px;
+}
+
+.new2 {
+    margin-top: 20px;
+    height: 210px;
+
+}
+
+.new2>h2 {
+    padding-top: 10px;
+
+}
+
+/*  ...................button1.................... */
+.button1 {
+    width: 348px;
+    height: 200px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+.button-img1 {
+    display: flex;
+
+}
+
+.button1>h2 {
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.text3>p {
+    color: #858484;
+}
+
+.btn1 {
+    border: 1px solid black;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* ............button2........... */
+.button2 {
+    width: 348px;
+    height: 120px;
+    background: white;
+    border-radius: 5px;
+    border-top: 1px solid rgb(148, 147, 147);
+}
+
+.button-img2 {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.text4 {
+    margin-left: 10px;
+}
+
+.text4>p {
+    color: #858484;
+}
+
+/* ..............button3........ */
+
+.button3 {
+    width: 348px;
+    height: 135px;
+    background: white;
+    border-radius: 5px;
+    border-top: 1px solid rgb(133, 132, 132);
+    border-bottom: 1px solid rgb(118, 117, 117);
+}
+
+.button-img3 {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+/* ..........profiling.............. */
+.profile {
+    width: 348px;
+    height: 100px;
+    /* background: white; */
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 131, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    /* border: 1px solid black;  */
+    border-bottom: 1px solid rgb(109, 108, 108);
+}
+
+.profile1 {
+    width: 348px;
+    height: 100px;
+    background: white;
+    border-bottom: 1px solid rgb(116, 116, 116);
+}
+
+.profile_logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 110px;
+    margin-top: -50px;
+    border: 1px solid black;
+}
+
+.name {
+    margin-left: 60px;
+}
+
+.bio {
+    margin-left: 50px;
+    color: #858484;
+}
+
+.bio1 {
+    width: 348px;
+    height: 120px;
+    background: white;
+    border-bottom: 1px solid rgb(116, 116, 116);
+}
+
+.bio1>p {
+    color: #858484;
+    margin-top: px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bio1>h3 {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.connection {
+    margin-left: 230px;
+    color: blue;
+}
+
+.view {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio2 {
+    width: 348px;
+    height: 60px;
+    background: white;
+    border-bottom: 1px solid rgb(116, 116, 116);
+}
+
+.bio2>p {
+    font-size: 15px;
+    color: #858484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio2>h3 {
+    margin-top: 10px;
+}
+
+.bookmark {
+    width: 348px;
+    height: 50px;
+    display: flex;
+    background: white;
+    border: 1px solid rgb(129, 128, 128);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+}
+
+.bookmark>i {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+}
+
+.bookmark>h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.recent {
+    width: 348px;
+    height: 500px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.recent>h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recent>p {
+    margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #858484;
+  margin-top: 10px;
+}
+.group{
+    color: blue;
+
+}
+.recent>i{
+    color: black;
+    text-transform: capitalize;
+}
+.groups{
+    display: flex;
+}
